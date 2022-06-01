@@ -1,5 +1,5 @@
  h1{
-	color: brown;
+	color: #9a8c98;
 	text-align: center;
 	font-family: 'Koulen', cursive;
 	}
@@ -17,8 +17,8 @@
 	}
 
 body {
-	background:#fdffff;
-	margin: 50px;
+	background:#f2e9e4;
+	margin: 100px;
 	padding: 100px;
 	margin-top: 100px;
 	font-family: 'Roboto', sans-serif;
@@ -26,7 +26,7 @@ body {
 
 
 .big-picture{
-	width: 950px;
+	width: 100%;
 	height: 500px;
 	object-fit: cover;
 	}
@@ -37,16 +37,19 @@ body {
 	}
 
 div{
-	background: #ebc8b2;
-	padding: 80px;
-	margin-top: 60px;
-	margin-bottom: 60px;
+	background: #c9ada7;
+	padding-bottom: 100px;
+	
 	}
+
+.espace-bloc {
+	padding: 80px;
+}
 
 
 
 .picture-squares{
-	width: 30%;
+	width:100%;
 	height: 500px;
 	object-fit: cover;
 	}
@@ -60,12 +63,16 @@ div{
 	text-align: center;
 	}
 
+.iframe-center{
+	text-align: center;
+	}
+
 .link-aligned{
 	display: flex;
 	justify-content: space-around;
 	padding: 3%;
 	border: 2px solid black;
-	background: white;
+	background: #f2e9e4;
 	}
 
 a{
@@ -73,5 +80,5 @@ a{
 	}
 
 a:hover{
-	color: white;
+	color: hotpink;
 	}
